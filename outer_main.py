@@ -1,10 +1,8 @@
-import uuid
-from typing import Union
 import time
+import asyncio
 from random import choice
 from fastapi import FastAPI, HTTPException, BackgroundTasks
 from pydantic import BaseModel
-import asyncio
 
 app = FastAPI()
 
